@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://engesen.github.io/engesen/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "example manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "an example manifest during course",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "engesen",
+  "sequences" : [ {
+    "@id" : "http://1a2951cb-8c56-4fae-b5c9-d0c01ea38d5e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9c69d5eb-0edc-4999-9e3b-3b1aa695915a",
+      "@type" : "sc:Canvas",
+      "label" : "an example canvas",
+      "height" : 4799,
+      "width" : 3775,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e038323a-90bf-49eb-ac13-318d8aad7d0c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/engesen/images/12345/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/engesen/images/12345",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4799,
+          "width" : 3775
+        },
+        "on" : "http://9c69d5eb-0edc-4999-9e3b-3b1aa695915a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://48f26113-1ebf-4d66-b0ae-426dd3135bcf",
+      "@type" : "sc:Canvas",
+      "label" : "example canvas 2",
+      "height" : 4602,
+      "width" : 3682,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5fc725bf-e557-4def-adb0-1d8043c42eab",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/engesen/images/2222222/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/engesen/images/2222222",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4602,
+          "width" : 3682
+        },
+        "on" : "http://48f26113-1ebf-4d66-b0ae-426dd3135bcf"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
