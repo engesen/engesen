@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 116,
+    "height" : 144
+  }, {
+    "width" : 231,
+    "height" : 288
+  }, {
+    "width" : 461,
+    "height" : 576
+  }, {
+    "width" : 921,
+    "height" : 1151
+  }, {
+    "width" : 1841,
+    "height" : 2301
+  }, {
+    "width" : 3682,
+    "height" : 4602
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3682,
+  "@id" : "https://engesen.github.io/engesen/images/2222222",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4602
+}
