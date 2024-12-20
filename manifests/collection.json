@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://engesen.github.io/engesen/manifests/manifest.json",
     "label" : "example manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://engesen.github.io/engesen/manifests/manifest2.json",
+    "label" : "example manifest"
   } ]
 }
