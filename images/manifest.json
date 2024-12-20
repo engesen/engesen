@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://engesen.github.io/engesen/images/12345/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "12345"
+                ]
+            },
+            "height": 4799,
+            "width": 3775,
+            "items": [
+                {
+                    "id": "https://engesen.github.io/engesen/images/12345/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://engesen.github.io/engesen/images/12345/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://engesen.github.io/engesen/images/12345/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 118,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 236,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 472,
+                                                "height": 600
+                                            },
+                                            {
+                                                "width": 944,
+                                                "height": 1200
+                                            },
+                                            {
+                                                "width": 1888,
+                                                "height": 2400
+                                            },
+                                            {
+                                                "width": 3775,
+                                                "height": 4799
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3775,
+                                        "@id": "https://engesen.github.io/engesen/images/12345",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 4799,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://engesen.github.io/engesen/images/12345/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://engesen.github.io/engesen/images/aesop-wines-12MlCD5KlYw-unsplash/canvas/",
             "type": "Canvas",
             "label": {
